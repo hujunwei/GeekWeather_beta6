@@ -52,6 +52,8 @@
 		16BBA96319B2AC0400055F54 /* tstorm1_night.png in Resources */ = {isa = PBXBuildFile; fileRef = 16BBA95119B2AC0400055F54 /* tstorm1_night.png */; };
 		16BBA96419B2AC0400055F54 /* tstorm3.png in Resources */ = {isa = PBXBuildFile; fileRef = 16BBA95219B2AC0400055F54 /* tstorm3.png */; };
 		16E9CF9219B2E8F70087A040 /* BashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E9CF9119B2E8F70087A040 /* BashViewController.swift */; };
+		859B2FD119B944DF0000AEAE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 859B2FCF19B944DF0000AEAE /* icon.png */; };
+		859B2FD219B944DF0000AEAE /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 859B2FD019B944DF0000AEAE /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +117,8 @@
 		16BBA95219B2AC0400055F54 /* tstorm3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tstorm3.png; sourceTree = "<group>"; };
 		16BBA96519B2B62800055F54 /* GeekWeather-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeekWeather-Bridging-Header.h"; sourceTree = "<group>"; };
 		16E9CF9119B2E8F70087A040 /* BashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BashViewController.swift; sourceTree = "<group>"; };
+		859B2FCF19B944DF0000AEAE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		859B2FD019B944DF0000AEAE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		86DBCD673D214306BBF1BA80 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -142,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				1665284419B3D419003F51DA /* background.png */,
+				859B2FCF19B944DF0000AEAE /* icon.png */,
+				859B2FD019B944DF0000AEAE /* icon@2x.png */,
 				1665284519B3D419003F51DA /* background_summer.png */,
 				1665284619B3D419003F51DA /* Cloud-Refresh.png */,
 				1665284719B3D419003F51DA /* cloudy2.png */,
@@ -349,6 +355,7 @@
 				1665285919B3D41A003F51DA /* cloudy2.png in Resources */,
 				1665285E19B3D41A003F51DA /* light_rain.png in Resources */,
 				1665286419B3D41A003F51DA /* sunny_night.png in Resources */,
+				859B2FD119B944DF0000AEAE /* icon.png in Resources */,
 				1665285F19B3D41A003F51DA /* overcast.png in Resources */,
 				1665286019B3D41A003F51DA /* shower3.png in Resources */,
 				16BBA92719B2A7A500055F54 /* Main.storyboard in Resources */,
@@ -361,6 +368,7 @@
 				16BBA92919B2A7A500055F54 /* Images.xcassets in Resources */,
 				1665286219B3D41A003F51DA /* snow5.png in Resources */,
 				1665285A19B3D41A003F51DA /* cloudy2_night.png in Resources */,
+				859B2FD219B944DF0000AEAE /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +584,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Geek Weather.app/Geek Weather";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jianghai Nie (68ZB662C27)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

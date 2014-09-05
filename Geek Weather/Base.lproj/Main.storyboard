@@ -169,12 +169,10 @@
                                     <rect key="frame" x="120" y="436" width="80" height="35"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="popoverPresentation" popoverAnchorView="wyz-v7-vtB" id="f9Q-GO-xcv">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="vXZ-lx-hvc" kind="modal" id="f9Q-GO-xcv"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maH-WF-HGA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maH-WF-HGA">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -194,9 +192,7 @@
                                     <rect key="frame" x="120" y="436" width="80" height="35"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="vXZ-lx-hvc" kind="popoverPresentation" popoverAnchorView="Jer-NR-cFC" id="M5B-1x-AY5">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
+                                    <segue destination="vXZ-lx-hvc" kind="presentation" id="M5B-1x-AY5"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y5m-r5-Y0x">
@@ -252,6 +248,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="f9Q-GO-xcv"/>
+        <segue reference="M5B-1x-AY5"/>
     </inferredMetricsTieBreakers>
 </document>
